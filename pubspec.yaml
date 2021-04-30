@@ -1,0 +1,99 @@
+name: borrar
+description: Manage your properties and their rents easily
+
+version: 2.0.3+2.0.3
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  dapackages: ^1.6.0 # keeps packages updated
+#  firebase_crashlytics: ^2.0.2
+  flutter_cupertino_localizations: ^1.0.1
+#  flutter_translate: ^2.0.1
+#  flutter_google_places: ^0.3.0
+#  google_mobile_ads: ^0.12.1+1
+#  #  firebase_admob: 0.11.0+1 # REMOVE AND USE THE NEW ONE
+#  maps_launcher: ^2.0.0
+#  progress_dialog: ^1.2.4 # NO NULL
+#  uuid: ^3.0.4 # IDs for events
+#  cloudinary_public: ^0.8.1+1
+#  provider: ^5.0.0
+#  firebase_auth: ^1.1.2
+#  firebase_analytics: ^8.0.2
+#  firebase_core: ^1.1.0
+#  cloud_firestore: ^1.0.7
+  http: ^0.13.1
+#  flutter_facebook_login: ^3.0.0 # NO NULL
+#  apple_sign_in: ^0.1.0 # NO NULL
+#  google_sign_in: ^5.0.2
+#  shared_preferences: ^2.0.5
+#  intl: ^0.17.0 # locales for table_calendar and datetime manipulation
+#  flutter_downloader: ^1.6.0
+  jiffy: ^4.1.0 # date manipulation
+#  permission_handler: ^7.0.0
+#  path_provider: ^2.0.1
+#  after_init: ^0.1.2 # NO NULL
+#  flutter_email_sender: ^5.0.0
+#  flutter_launcher_icons: ^0.9.0
+#  file_picker: ^3.0.1 # for multiple images selection
+#  image_picker: ^0.7.4 # for camera
+#  image: ^3.0.2
+#  url_launcher: ^6.0.3
+#  transparent_image: ^2.0.0
+#  cached_network_image: ^3.0.0
+  carousel_slider: ^4.0.0-nullsafety.0
+#  flutter_svg: ^0.22.0
+#  table_calendar: ^3.0.0
+#  add_2_calendar: ^2.1.0
+#  flutter_local_notifications: ^5.0.0+2
+#  contacts_service: ^0.6.1 # get contacts
+#  in_app_purchase: ^0.5.2
+  device_info: ^2.0.0
+#  flutter_platform_widgets: ^1.4.1
+#  flutter_native_splash: ^1.1.8+4
+  intl_phone_number_input: ^0.7.0+1  # NO NULL
+#  country_pickers: ^2.0.0
+#  currency_picker: ^2.0.3
+#  #  country_currency_pickers: ^1.0.1 # NO NULL
+#  flutter_open_whatsapp: ^0.1.2 # NO NULL
+  reorderables: ^0.4.1 # NO NULL reorder rent fields
+#  drag_and_drop_gridview: ^1.0.8 # NO NULL
+#  pdf: ^3.3.0
+#  printing: ^5.2.1 # necessary for the above one
+#  open_file: ^3.2.0 # necessary for the above one
+#  syncfusion_flutter_calendar: ^19.1.56
+
+# generate new splashscreen: flutter pub pub run flutter_native_splash:create
+#flutter_native_splash:
+#  image: assets/images/icon.jpg
+#  color: 'ffffff'
+#  fill_horizontal: true
+
+# generate new icon: flutter pub run flutter_launcher_icons:main
+#flutter_icons:
+#  android: 'launcher_icon'
+#  ios: true
+#  image_path: 'assets/images/icon.jpg'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#flutter:
+#  uses-material-design: true
+#  assets:
+#    - assets/i18n/
+#    - assets/images/
+#    - assets/images/versions/
+#    - assets/icons/
+#    - assets/fonts/
+#  rm -rf ~/Library/Developer/Xcode/DerivedData/ && rm -rf ~/Library/Caches/CocoaPods/ && rm -rf clone/ios/Pods/ && pod cache clean --all && flutter clean && flutter pub get &&cd ios && rm Podfile.lock && pod install --repo-update && cd ..
